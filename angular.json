@@ -22,7 +22,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": true,
+            "aot": false,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "interceptor-example-angular"
+    }
+  },
+  "defaultProject": "interceptor-example-angular",
+  "cli": {
+    "analytics": "76523e02-f529-474b-95b6-7dd3a7a90ead"
+  }
 }
